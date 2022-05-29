@@ -1,0 +1,53 @@
+{
+    "app-id": "com.ryeingoddard.EEKeeperQt",
+    "branch": "master",
+    "build-options": {
+        "no-debuginfo": true,
+        "strip": true
+    },
+    "command": "EEKeeperQt",
+    "finish-args": [
+        "--share=ipc",
+        "--socket=x11",
+        "--socket=pulseaudio",
+        "--share=network",
+        "--socket=system-bus",
+        "--device=dri",
+        "--filesystem=host",
+        "--own-name=com.ryeingoddard.EEKeeperQt"
+    ],
+    "modules": [
+        {
+            "name": "EEKeeperQt",
+            "no-autogen": true,
+            "no-make-install": false,
+            "no-parallel-make": false,
+            "sources": [
+                {
+                    "branch": "master",
+                    "type": "dir",
+                    "path": "/home/goddard/eekeeper-qt"
+                },
+                {
+                    "commands": [
+                        "qmake -config release  PREFIX=/app EEKeeperQt.pro",
+                        "make -f Makefile qmake_all",
+                        "make -j19 in build",
+                        "make check",
+                        "make install"
+                    ],
+                    "dest-filename": "configure",
+                    "type": "script"
+                }
+            ],
+            "build-commands": [
+                "install -D /run/build/EEKeeperQt/EEKeeperQt /app/bin/EEKeeperQt",
+                "cp /run/build/EEKeeperQt/KitLists/Kits.uld /app/bin/Kits.uld"
+            ]
+        }
+    ],
+    "runtime": "org.kde.Platform",
+    "runtime-version": "5.15",
+    "sdk": "org.kde.Sdk",
+    "separate-locales": false
+}
