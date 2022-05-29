@@ -33,7 +33,7 @@
 
 #include "defines.h"
 #include "PalImageList.h"
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 
 CPalImageList::CPalImageList() : QList<QImage>()
 {

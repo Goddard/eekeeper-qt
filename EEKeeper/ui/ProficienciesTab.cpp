@@ -1,7 +1,7 @@
 #include "ProficienciesTab.h"
 #include "ui_ProficienciesTab.h"
 
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 
 ProficienciesTab::ProficienciesTab(QWidget *parent) :
     QWidget(parent),

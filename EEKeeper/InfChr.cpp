@@ -33,7 +33,7 @@
 
 #include "defines.h"
 #include "InfChr.h"
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 
 #include <QFile>
 

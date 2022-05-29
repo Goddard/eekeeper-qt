@@ -1,7 +1,7 @@
 #include "SavedGameWidget.h"
 #include "ui_SavedGameWidget.h"
 
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 #include "InfGame.h"
 #include "StringFinderDialog.h"
 

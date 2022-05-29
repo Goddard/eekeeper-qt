@@ -34,7 +34,7 @@
 
 #include "InfGame.h"
 #include "defines.h"
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 #include <QMessageBox>
 
 CInfGame::CInfGame()

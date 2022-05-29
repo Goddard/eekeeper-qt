@@ -1,7 +1,7 @@
 #include "ValueItemDialog.h"
 #include "ui_ValueItemDialog.h"
 
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 #include <QRegExpValidator>
 
 ValueItemDialog::ValueItemDialog(QWidget *parent, quint32 dwMin, quint32 dwMax, const QString &strDisplayText, quint32 dwValue) :

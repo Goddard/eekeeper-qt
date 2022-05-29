@@ -36,7 +36,7 @@
 #include "InfBifFile.h"
 #include "InfCreature.h"
 #include "InfKey.h"
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 #include "Log.h"
 
 

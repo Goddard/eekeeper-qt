@@ -1,7 +1,7 @@
 #include "CharacterSheetWidget.h"
 #include "ui_CharacterSheetWidget.h"
 
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 #include "InfTlk.h"
 #include "SpellTab.h"
 #include "ValueList.h"

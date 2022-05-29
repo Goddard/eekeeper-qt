@@ -31,7 +31,7 @@
 
 **************************************************************************************/
 
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 #include "Inf2DA.h"
 
 CInf2DA::CInf2DA() : m_nRows(0), m_nCols(0), m_pszBuf(NULL), m_nBufLen(0), m_pHeader(NULL), m_pData(NULL)

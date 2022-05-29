@@ -31,7 +31,7 @@
 
 **************************************************************************************/
 
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 #include "InfKey.h"
 #include "InfTlk.h"
 #include "InfCreature.h"

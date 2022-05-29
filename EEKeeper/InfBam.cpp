@@ -32,7 +32,7 @@
 **************************************************************************************/
 
 #include "defines.h"
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 #include "InfBam.h"
 
 #include <QColor>

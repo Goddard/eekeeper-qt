@@ -6,7 +6,7 @@
 #include "SavedGameWidget.h"
 #include "ValueListDialog.h"
 
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 #include "InfKey.h"
 #include "InfTlk.h"
 #include "SpellBitmaps.h"

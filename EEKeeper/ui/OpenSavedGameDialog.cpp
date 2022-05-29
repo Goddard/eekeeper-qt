@@ -2,7 +2,7 @@
 #include "ui_OpenSavedGameDialog.h"
 
 
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 
 #include <QDateTime>
 #include <QDir>

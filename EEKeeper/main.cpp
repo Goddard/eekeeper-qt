@@ -1,5 +1,5 @@
 #include "ui/EEKeeperWindow.h"
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 
 
 #include <cstdio>

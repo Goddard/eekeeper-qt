@@ -37,7 +37,7 @@
 
 #include "defines.h"
 #include "InfKey.h"
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 
 quint8 _xorKey[XOR_KEY_LEN] =
 {

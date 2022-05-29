@@ -1,7 +1,7 @@
 #ifndef SPELLTAB_H
 #define SPELLTAB_H
 
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 #include "InfCreature.h"
 #include "InfKey.h"
 

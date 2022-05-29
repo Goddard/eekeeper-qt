@@ -33,7 +33,7 @@
 
 #include "defines.h"
 #include "InfTlk.h"
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 #include "Log.h"
 
 CInfTlk::CInfTlk() : m_file(NULL)

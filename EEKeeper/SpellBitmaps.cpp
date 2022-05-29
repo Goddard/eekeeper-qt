@@ -37,7 +37,7 @@
 #include "InfKey.h"
 #include "InfTlk.h"
 
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 
 #include <QApplication>
 

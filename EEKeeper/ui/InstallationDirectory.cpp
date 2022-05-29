@@ -1,6 +1,6 @@
 #include "InstallationDirectory.h"
 #include "ui_InstallationDirectory.h"
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 
 #include <QFileDialog>
 #include <QMessageBox>

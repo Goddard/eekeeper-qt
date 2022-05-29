@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
+    <width>490</width>
     <height>265</height>
    </rect>
   </property>
@@ -31,7 +31,7 @@
     <rect>
      <x>10</x>
      <y>30</y>
-     <width>281</width>
+     <width>271</width>
      <height>21</height>
     </rect>
    </property>
@@ -39,13 +39,13 @@
     <string>Currently chosen BG:EE installation directory</string>
    </property>
    <property name="readOnly">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QComboBox" name="comboLanguage">
    <property name="geometry">
     <rect>
-     <x>140</x>
+     <x>130</x>
      <y>60</y>
      <width>151</width>
      <height>26</height>
@@ -56,17 +56,17 @@
    </property>
    <item>
     <property name="text">
+     <string notr="true">en_US</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
      <string notr="true">cs_CZ</string>
     </property>
    </item>
    <item>
     <property name="text">
      <string notr="true">de_DE</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string notr="true">en_US</string>
     </property>
    </item>
    <item>
@@ -116,7 +116,7 @@
   <widget class="QPushButton" name="buttonOk">
    <property name="geometry">
     <rect>
-     <x>290</x>
+     <x>329</x>
      <y>25</y>
      <width>114</width>
      <height>32</height>
@@ -132,7 +132,7 @@
   <widget class="QPushButton" name="buttonCancel">
    <property name="geometry">
     <rect>
-     <x>290</x>
+     <x>329</x>
      <y>80</y>
      <width>114</width>
      <height>32</height>
@@ -145,7 +145,7 @@
   <widget class="QPushButton" name="buttonBrowse">
    <property name="geometry">
     <rect>
-     <x>290</x>
+     <x>329</x>
      <y>135</y>
      <width>114</width>
      <height>32</height>
@@ -193,7 +193,7 @@ Browse: Manually choose the directory.</string>
   <widget class="QPushButton" name="buttonSearch">
    <property name="geometry">
     <rect>
-     <x>290</x>
+     <x>329</x>
      <y>190</y>
      <width>114</width>
      <height>32</height>

@@ -1,7 +1,7 @@
 #include "StringFinderDialog.h"
 #include "ui_StringFinderDialog.h"
 
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 #include <QIntValidator>
 #include <QMessageBox>
 #include <QRegExpValidator>

@@ -1,7 +1,7 @@
 #include "InventoryTab.h"
 #include "ui_InventoryTab.h"
 
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 #include <QMessageBox>
 
 InventoryTab::InventoryTab(QWidget *parent) :

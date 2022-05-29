@@ -1,7 +1,7 @@
 #include "ValueListDialog.h"
 #include "ui_ValueListDialog.h"
 
-#include "EEKeeper.h"
+#include "EEKeeperQt.h"
 #include "ValueItemDialog.h"
 #include <QMessageBox>
 
