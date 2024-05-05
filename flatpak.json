@@ -25,16 +25,13 @@
             "sources": [
                 {
                     "branch": "master",
-                    "type": "dir",
-                    "path": "/home/goddard/eekeeper-qt"
+                    "type": "git",
+                    "url": "https://github.com/Goddard/eekeeper-qt.git"
                 },
                 {
                     "commands": [
                         "qmake -config release  PREFIX=/app EEKeeperQt.pro",
-                        "make -f Makefile qmake_all",
-                        "make -j19 in build",
-                        "make check",
-                        "make install"
+                        "make -j$(nproc) -f Makefile qmake_all"
                     ],
                     "dest-filename": "configure",
                     "type": "script"
@@ -47,7 +44,7 @@
         }
     ],
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15",
+    "runtime-version": "5.15-23.08",
     "sdk": "org.kde.Sdk",
     "separate-locales": false
 }
